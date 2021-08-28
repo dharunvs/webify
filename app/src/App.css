@@ -593,7 +593,7 @@ nav .Search {
 
 .reservationHeader h1 {
   transform: translateY(-10px);
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .Reservation img {
@@ -613,4 +613,12 @@ nav .Search {
   flex-direction: column;
   background-color: white;
   padding: 40px;
+}
+
+.Reservation form input,
+.Reservation form textarea {
+  padding: 10px;
+  outline: none;
+  border: 1px solid var(--lightgray2);
+  margin-bottom: 20px;
 }
