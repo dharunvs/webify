@@ -1,24 +1,23 @@
 function Reservation() {
   return (
-    <form type="POST">
-       
-   
-        <input placeholder="Name"
-          type="text"
-        />
-     
-        <input placeholder="Email"
-        type="email"
-      />
-     
-      <input placeholder="Phone"
-      type="number"/>
-      <input placeholder="Date" type="date"/>
-      <input placeholder="Time" type="time"/>
-      <input placeholder="Person" type="number"/>
-      <textarea placeholder="Message" type="text"/>
+    <form
+      type="POST"
+      onSubmit={(e) => {
+        e.preventDefault();
+      }}
+    >
+      <input placeholder="Name" type="text" />
+
+      <input placeholder="Email" type="email" />
+
+      <input placeholder="Phone" type="number" />
+      <input placeholder="Date" type="date" />
+      <input placeholder="Time" type="time" />
+      <input placeholder="Person" type="number" />
+      <textarea placeholder="Message" type="text" />
       <input type="submit"></input>
-      </form>  );
+    </form>
+  );
 }
 
 export default Reservation;
