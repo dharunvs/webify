@@ -61,8 +61,8 @@ function Menu() {
             des="A spicy and mouth-watering Chicken roast made in tandoori oven!"
             img={grill}
           />
-          <MenuElement label="Ramen" price="90.00" des="Ramen" img={noodles} />
-          <MenuElement label="egg" price="90.00" des="egg" img={mutta} />
+          <MenuElement label="Ramen" price="90.00" des="A delicious dry ramen with egg , hand made by ichiraku!" img={noodles} />
+          <MenuElement label="Egg" price="90.00" des="Eggsotic! just plain and complex!!" img={mutta} />
         </div>
       </div>
     </section>
