@@ -1,5 +1,13 @@
+import { Switch, Route } from "react-router-dom";
+import Index from "./pages/Index";
+import "./App.css";
+
 function App() {
-  return <div className="App">Dinner and Deli</div>;
+  return (
+    <Switch>
+      <Route exact path="/" component={Index} />
+    </Switch>
+  );
 }
 
 export default App;
