@@ -51,14 +51,14 @@ function Menu() {
             des="Processed and marinated beef steak"
             img={beef}
           />
-          <MenuElement label="gravy" price="90.00" des="gravy" img={kadai} />
+          <MenuElement label="Chicken Gravy" price="90.00" des="A nice chicken Gravy" img={kadai} />
         </div>
         <div className="menuList">
           <h1>Dinner</h1>
           <MenuElement
             label="Chicken"
             price="90.00"
-            des="A spicy and mouth-watering Chicken roast made in tandoori oven!"
+            des="A spicy Chicken roast !"
             img={grill}
           />
           <MenuElement label="Ramen" price="90.00" des="A delicious dry ramen with egg , hand made by ichiraku!" img={noodles} />
