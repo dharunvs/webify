@@ -221,3 +221,18 @@ nav .Search {
   justify-content: center;
   background-color: aliceblue;
 }
+
+.aboutLeft,
+.aboutRight {
+  border: 1px solid red;
+  height: 100%;
+  display: flex;
+}
+
+.aboutLeft {
+  width: 40%;
+}
+
+.aboutRight {
+  width: 60%;
+}
