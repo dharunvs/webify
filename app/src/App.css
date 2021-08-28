@@ -410,3 +410,63 @@ nav .Search {
   margin: auto;
   background-color: aliceblue;
 }
+
+.menuHeader {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuHeader p {
+  color: var(--orange);
+}
+
+.menuContents {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuList {
+  width: 32%;
+  border: 1px solid red;
+  height: 60vh;
+}
+
+.menuList h1 {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+.MenuElement {
+  width: 100%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  padding: 10px 0;
+}
+
+.MenuElement .imgContainer {
+  width: 6vw;
+  height: 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.MenuElement .imgContainer img {
+  width: inherit;
+}
+
+.MenuElement div:nth-child(2) {
+  width: calc(100% - 6vw - 20%);
+}
+
+.MenuElement > p {
+  text-align: end;
+}
