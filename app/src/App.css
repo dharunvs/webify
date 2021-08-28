@@ -408,7 +408,6 @@ nav .Search {
   height: 100vh;
   width: 85%;
   margin: auto;
-  background-color: aliceblue;
 }
 
 .menuHeader {
@@ -429,10 +428,10 @@ nav .Search {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 5vh;
 }
 .menuList {
   width: 32%;
-  border: 1px solid red;
   height: 60vh;
 }
 
@@ -442,16 +441,17 @@ nav .Search {
 }
 .MenuElement {
   width: 100%;
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   color: var(--gray);
-  padding: 10px 0;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--lightgray2);
+  margin-bottom: 3vh;
 }
 
 .MenuElement .imgContainer {
-  width: 6vw;
-  height: 6vw;
+  width: 5vw;
+  height: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -464,9 +464,16 @@ nav .Search {
 }
 
 .MenuElement div:nth-child(2) {
-  width: calc(100% - 6vw - 20%);
+  width: calc(100% - 6vw - 25%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .MenuElement > p {
   text-align: end;
+  font-size: 1.3rem;
+}
+.MenuElement div:nth-child(2) p:nth-child(1) {
+  font-size: 1.6rem;
 }

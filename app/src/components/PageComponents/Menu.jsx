@@ -18,12 +18,60 @@ function Menu() {
             des="Grated Cheese"
             img={tacos}
           />
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
         </div>
         <div className="menuList">
           <h1>Lunch</h1>
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
         </div>
         <div className="menuList">
           <h1>Dinner</h1>
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
+          <MenuElement
+            label="Pepper Soup"
+            price="90.00"
+            des="Grated Cheese"
+            img={tacos}
+          />
         </div>
       </div>
     </section>
