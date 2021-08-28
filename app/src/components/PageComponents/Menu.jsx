@@ -1,8 +1,8 @@
 function Menu() {
   return (
-    <div className="Menu" name="menu">
+    <section className="Menu" name="menu">
       Menu
-    </div>
+    </section>
   );
 }
 

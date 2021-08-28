@@ -1,8 +1,8 @@
 function Team() {
   return (
-    <div className="Team" name="team">
+    <section className="Team" name="team">
       Team
-    </div>
+    </section>
   );
 }
 

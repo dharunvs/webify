@@ -1,8 +1,8 @@
 function About() {
   return (
-    <div className="About" name="about">
+    <section className="About" name="about">
       About
-    </div>
+    </section>
   );
 }
 

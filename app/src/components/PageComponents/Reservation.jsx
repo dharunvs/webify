@@ -1,8 +1,8 @@
 function Reservation() {
   return (
-    <div className="Reservation" name="reservation">
+    <section className="Reservation" name="reservation">
       Reservation
-    </div>
+    </section>
   );
 }
 

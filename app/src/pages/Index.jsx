@@ -1,12 +1,23 @@
 import Navbar from "../components/Navbar";
-import { Home } from "../components/PageComponents";
+import {
+  About,
+  Home,
+  Menu,
+  Reservation,
+  SpecialDishes,
+  Team,
+} from "../components/PageComponents";
 
 function Index() {
   return (
     <div className="Index">
       <Navbar />
       <Home />
-      <p>hello</p>
+      <About />
+      <SpecialDishes />
+      <Menu />
+      <Team />
+      <Reservation />
     </div>
   );
 }
