@@ -573,7 +573,44 @@ nav .Search {
 /* Reservation.jsx */
 
 .Reservation {
-  height: 100vh;
-  width: 85%;
+  height: 150vh;
+  width: 100%;
   margin: auto;
+  position: relative;
+}
+
+.reservationHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservationHeader p {
+  color: var(--orange);
+}
+
+.reservationHeader h1 {
+  transform: translateY(-10px);
+  padding-bottom: 10px;
+}
+
+.Reservation img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.Reservation form {
+  position: absolute;
+  top: 20vh;
+  left: 10vh;
+  z-index: 1;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 40px;
 }
