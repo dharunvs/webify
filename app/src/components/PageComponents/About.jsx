@@ -1,5 +1,9 @@
 function About() {
-  return <div>About</div>;
+  return (
+    <div className="About" name="about">
+      About
+    </div>
+  );
 }
 
 export default About;

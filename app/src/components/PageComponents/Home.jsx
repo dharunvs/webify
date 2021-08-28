@@ -1,5 +1,9 @@
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="Home" name="home">
+      Home
+    </div>
+  );
 }
 
 export default Home;

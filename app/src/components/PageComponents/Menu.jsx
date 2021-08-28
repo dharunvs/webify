@@ -1,5 +1,9 @@
 function Menu() {
-  return <div>Menu</div>;
+  return (
+    <div className="Menu" name="menu">
+      Menu
+    </div>
+  );
 }
 
 export default Menu;

@@ -1,5 +1,9 @@
 function Team() {
-  return <div>Team</div>;
+  return (
+    <div className="Team" name="team">
+      Team
+    </div>
+  );
 }
 
 export default Team;

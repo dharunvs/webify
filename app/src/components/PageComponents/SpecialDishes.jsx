@@ -1,5 +1,9 @@
 function SpecialDishes() {
-  return <div>SpecialDishes</div>;
+  return (
+    <div className="SpecialDishes" name="specialDishes">
+      SpecialDishes
+    </div>
+  );
 }
 
 export default SpecialDishes;

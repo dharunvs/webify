@@ -1,5 +1,9 @@
 function Reservation() {
-  return <div>Reservation</div>;
+  return (
+    <div className="Reservation" name="reservation">
+      Reservation
+    </div>
+  );
 }
 
 export default Reservation;
