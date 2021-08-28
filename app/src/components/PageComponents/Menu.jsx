@@ -1,6 +1,14 @@
 import MenuElement from "../MenuElement/MenuElement";
 
-import tacos,balls,beef,biriyani,green,grill,kadai,kari,mutta,noodles,rea,salad,tac,chicken,urunda,terila,burger from "../../assets/images/tacos.jpg";
+import tacos from "../../assets/images/tacos.jpg";
+import balls from "../../assets/images/balls.jpg";
+import biriyani from "../../assets/images/biriyani.jpg";
+import beef from "../../assets/images/beef.jpg";
+import grill from "../../assets/images/grill.jpg";
+import noodles from "../../assets/images/noodles.jpg";
+import mutta from "../../assets/images/mutta.jpg";
+import green from "../../assets/images/green.jpg";
+import kadai from "../../assets/images/kadai.jpg";
 
 function Menu() {
   return (
@@ -13,48 +21,37 @@ function Menu() {
         <div className="menuList">
           <h1>Breakfast</h1>
           <MenuElement
-            label="nachos"
+            label="Nachos"
             price="90.00"
             des="Good nachos"
             img={tacos}
           />
           <MenuElement
-            label="fried balls"
+            label="Fried balls"
             price="90.00"
             des="fried balls"
             img={balls}
           />
-          
-         
-         <MenuElement
-            label="salad"
-            price="90.00"
-            des="salad"
-            img={green}
-          />
-       
+
+          <MenuElement label="salad" price="90.00" des="salad" img={green} />
+        </div>
+        <div className="menuList">
           <h1>Lunch</h1>
-          
+
           <MenuElement
-            label="biriyani"
+            label="Biriyani"
             price="90.00"
             des="biriyani"
             img={biriyani}
           />
-         
-         
-           <MenuElement
-           label="processed beef"
-           price="90.00"
-           des="processed beef"
-           img={beef}
-         />
+
           <MenuElement
-           label="gravy"
-           price="90.00"
-           des="gravy"
-           img={kadai}
-         />
+            label="Processed Beef"
+            price="90.00"
+            des="processed beef"
+            img={beef}
+          />
+          <MenuElement label="gravy" price="90.00" des="gravy" img={kadai} />
         </div>
         <div className="menuList">
           <h1>Dinner</h1>
@@ -64,18 +61,8 @@ function Menu() {
             des="Chicken"
             img={grill}
           />
-          <MenuElement
-            label="Ramen"
-            price="90.00"
-            des="Ramen"
-            img={noodles}
-          />
-          <MenuElement
-            label="egg"
-            price="90.00"
-            des="egg"
-            img={mutta}
-          />
+          <MenuElement label="Ramen" price="90.00" des="Ramen" img={noodles} />
+          <MenuElement label="egg" price="90.00" des="egg" img={mutta} />
         </div>
       </div>
     </section>
