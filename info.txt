@@ -1,0 +1,3 @@
+Project for webify from team CENTIGRADE!!
+
+run `npm i` and then `npm start`
