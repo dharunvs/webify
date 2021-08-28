@@ -5,7 +5,7 @@ function MenuElement({ label, price, des, img }) {
         <img src={img} alt="" />
       </div>
       <div>
-        <h3>{label}</h3>
+        <p>{label}</p>
         <p>{des}</p>
       </div>
       <p>
