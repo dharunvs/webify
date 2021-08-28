@@ -36,19 +36,19 @@ function About() {
               <div className="imgContainer">
                 <img src={urunda} alt="" className="customimg3" />
               </div>
-              <p>Pepper Soup</p>
+              <p>Chicken Balls</p>
             </div>
             <div>
               <div className="imgContainer">
                 <img src={grill} alt="" />
               </div>
-              <p>Pepper Soup</p>
+              <p>Grill Chicken</p>
             </div>
             <div>
               <div className="imgContainer">
                 <img src={noodles} alt="" className="customimg1" />
               </div>
-              <p>Pepper Soup</p>
+              <p>Dry Egg Ramen</p>
             </div>
           </div>
         </div>
