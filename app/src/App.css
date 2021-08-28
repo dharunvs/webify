@@ -325,7 +325,7 @@ nav .Search {
 /* SpecialDishes.jsx */
 
 .SpecialDishes {
-  height: 100vh;
+  min-height: 100vh;
   width: 85%;
   margin: auto;
 }
@@ -345,11 +345,10 @@ nav .Search {
 
 .SpecialDishesGallery {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 80vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  min-height: 80vh;
 }
 
 .gallery {
@@ -388,7 +387,10 @@ nav .Search {
   width: 70%;
 }
 
-.gallery .sd2 button {
+.gallery .sd2 {
+}
+
+.book {
   transform: translateY(4vh);
 }
 
@@ -711,6 +713,10 @@ nav .Search {
 }
 
 .hccontent > p {
+  text-align: center;
+}
+
+.hccontent > .p1 {
   font-size: 2rem;
   font-style: italic;
   color: rgba(255, 255, 255, 0.692);
@@ -718,6 +724,18 @@ nav .Search {
   margin: auto;
   text-align: center;
   transform: translateY(-60%);
+}
+
+.hccontent > .p2 {
+  font-weight: bold;
+}
+
+.hccontent > .p3 {
+  padding: 10px;
+}
+.hccontent > .p3 span {
+  color: rgb(255, 0, 98);
+  font-weight: bold;
 }
 
 .HappyCustomer .imgContainer {

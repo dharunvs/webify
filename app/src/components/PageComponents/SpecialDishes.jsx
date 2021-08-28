@@ -1,7 +1,22 @@
 import pizza from "../../assets/images/pizza.jpg";
 import beef from "../../assets/images/beef.jpg";
+import { Link } from "react-scroll";
 
 function SpecialDishes() {
+  const NavLink = ({ label, to }) => (
+    <Link
+      activeClass="active"
+      // className="defaultButton"
+      to={to}
+      spy={true}
+      smooth={true}
+      // offset={-70}
+      style={{ marginTop: "40px" }}
+      duration={1000}
+    >
+      {label}
+    </Link>
+  );
   return (
     <section className="SpecialDishes" name="specialDishes">
       <div className="specialDishesHeader">
@@ -22,7 +37,10 @@ function SpecialDishes() {
               corporis dicta sit quidem? Nam.
             </p>
             <h2>Rs 649.00</h2>
-            <button className="defaultButton">Book A Table</button>
+
+            <button className="defaultButton">
+              <NavLink label="Book A Table" to="reservation" />
+            </button>
           </div>
           <div className="sd3 sd31">
             <div className="imgContainer">
@@ -48,7 +66,9 @@ function SpecialDishes() {
               corporis dicta sit quidem? Nam.
             </p>
             <h2>Rs 649.00</h2>
-            <button className="defaultButton">Book A Table</button>
+            <button className="defaultButton">
+              <NavLink label="Book A Table" to="reservation" />
+            </button>
           </div>
         </div>
       </div>

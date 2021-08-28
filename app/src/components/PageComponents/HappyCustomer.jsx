@@ -20,7 +20,7 @@ function HappyCustomer() {
         >
           “
         </h1>
-        <p>
+        <p className="p1">
           I had lunch with some of my coleagues at Echo on Day 1. I had the
           wedge salad - it was delicious. On Night 2, I enjoyed a drink at the
           bar. I had a Margarita. The service was excellent.
