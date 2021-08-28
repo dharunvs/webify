@@ -1,3 +1,7 @@
 Project for webify from team CENTIGRADE!!
 
+email: dharunsivakumar002@gmail.com
+
+members: Dharun V S, Hrithik M Joseph
+
 run `npm i` and then `npm start`
