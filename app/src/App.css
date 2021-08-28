@@ -477,3 +477,99 @@ nav .Search {
 .MenuElement div:nth-child(2) p:nth-child(1) {
   font-size: 1.6rem;
 }
+
+/* Team.jsx */
+/* Team.jsx */
+
+.Team {
+  height: 100vh;
+  width: 85%;
+  margin: auto;
+}
+
+.teamHeader {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamHeader p {
+  color: var(--orange);
+}
+
+.teamContent {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teamCard {
+  overflow: hidden;
+  width: 22vw;
+  height: calc(22vw + 10vh);
+  position: relative;
+}
+
+.teamCard::after {
+  content: "";
+  width: 22vw;
+  height: calc(22vw);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); */
+}
+
+.teamCard .imgContainer {
+  width: 22vw;
+  height: 22vw;
+  background-color: var(--lightgray);
+}
+
+.teamCard .imgContainer img {
+  width: 22vw;
+}
+
+.tCardTop,
+.tCardBottom {
+  width: 22vw;
+  height: 10vh;
+  /* background-color: aliceblue; */
+  transition: transform 300ms ease-in-out;
+}
+
+.tCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid var(--lightgray2);
+  border-right: 1px solid var(--lightgray2);
+  border: 1px solid var(--lightgray2);
+  transform: translateX(-100%);
+}
+
+.tCardBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid var(--lightgray2);
+  border-left: 1px solid var(--lightgray2);
+  border: 1px solid var(--lightgray2);
+  background-color: white;
+  transform: translateX(100%);
+}
+
+.teamCard:hover .tCardTop,
+.teamCard:hover .tCardBottom {
+  transform: translateX(0);
+}
