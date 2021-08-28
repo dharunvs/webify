@@ -1,6 +1,6 @@
 import MenuElement from "../MenuElement/MenuElement";
 
-import tacos from "../../assets/images/tacos.jpg";
+import tacos,balls,beef,biriyani,green,grill,kadai,kari,mutta,noodles,rea,salad,tac,chicken,urunda,terila,burger from "../../assets/images/tacos.jpg";
 
 function Menu() {
   return (
@@ -13,64 +13,68 @@ function Menu() {
         <div className="menuList">
           <h1>Breakfast</h1>
           <MenuElement
-            label="Pepper Soup"
+            label="nachos"
             price="90.00"
-            des="Grated Cheese"
+            des="Good nachos"
             img={tacos}
           />
           <MenuElement
-            label="Pepper Soup"
+            label="fried balls"
             price="90.00"
-            des="Grated Cheese"
-            img={tacos}
+            des="fried balls"
+            img={balls}
           />
-          <MenuElement
-            label="Pepper Soup"
+          
+         
+         <MenuElement
+            label="salad"
             price="90.00"
-            des="Grated Cheese"
-            img={tacos}
+            des="salad"
+            img={green}
           />
-        </div>
-        <div className="menuList">
+       
           <h1>Lunch</h1>
+          
           <MenuElement
-            label="Pepper Soup"
+            label="biriyani"
             price="90.00"
-            des="Grated Cheese"
-            img={tacos}
+            des="biriyani"
+            img={biriyani}
           />
+         
+         
+           <MenuElement
+           label="processed beef"
+           price="90.00"
+           des="processed beef"
+           img={beef}
+         />
           <MenuElement
-            label="Pepper Soup"
-            price="90.00"
-            des="Grated Cheese"
-            img={tacos}
-          />
-          <MenuElement
-            label="Pepper Soup"
-            price="90.00"
-            des="Grated Cheese"
-            img={tacos}
-          />
+           label="gravy"
+           price="90.00"
+           des="gravy"
+           img={kadai}
+         />
         </div>
         <div className="menuList">
           <h1>Dinner</h1>
           <MenuElement
-            label="Pepper Soup"
+            label="Chicken"
             price="90.00"
-            des="Grated Cheese"
-            img={tacos}
+            des="Chicken"
+            img={grill}
           />
           <MenuElement
-            label="Pepper Soup"
+            label="Ramen"
             price="90.00"
-            des="Grated Cheese"
-            img={tacos}
+            des="Ramen"
+            img={noodles}
           />
           <MenuElement
-            label="Pepper Soup"
+            label="egg"
             price="90.00"
-            des="Grated Cheese"
-            img={tacos}
+            des="egg"
+            img={mutta}
           />
         </div>
       </div>
