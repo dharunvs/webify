@@ -1,7 +1,7 @@
 function Reservation() {
   return (
     <form
-      type="POST"
+      method="POST"
       onSubmit={(e) => {
         e.preventDefault();
       }}
