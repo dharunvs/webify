@@ -22,9 +22,8 @@ function Reservation() {
         </div>
 
         <input placeholder="Person" type="number" />
-        <textarea placeholder="Message" type="text" />
+        <textarea placeholder="Your Message..." type="text" />
         <button className="defaultButton" type="submit">
-          {" "}
           Send Message
         </button>
       </form>

@@ -11,11 +11,6 @@ function Team() {
       </div>
       <div className="teamContent">
         <div className="teamCard">
-          <div className="tCardTop">
-            <div>O</div>
-            <div>O</div>
-            <div>O</div>
-          </div>
           <div className="imgContainer">
             <img src={bhatt} alt="" />
           </div>
@@ -26,26 +21,16 @@ function Team() {
         </div>
 
         <div className="teamCard">
-          <div className="tCardTop">
-            <div>O</div>
-            <div>O</div>
-            <div>O</div>
-          </div>
           <div className="imgContainer">
             <img src={damo} alt="" />
           </div>
           <div className="tCardBottom">
-            <h2>Damodaran</h2>
-            <p>Chef</p>
+            <h2>Venkatesh Bhatt</h2>
+            <p>CEO</p>
           </div>
         </div>
 
         <div className="teamCard">
-          <div className="tCardTop">
-            <div>O</div>
-            <div>O</div>
-            <div>O</div>
-          </div>
           <div className="imgContainer">
             <img src={ashwin} alt="" />
           </div>
