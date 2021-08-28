@@ -33,7 +33,12 @@ function Menu() {
             img={balls}
           />
 
-          <MenuElement label="Salad" price="90.00" des=" A nutricious bowl of salad" img={green} />
+          <MenuElement
+            label="Salad"
+            price="90.00"
+            des=" A nutricious bowl of salad"
+            img={green}
+          />
         </div>
         <div className="menuList">
           <h1>Lunch</h1>
@@ -46,12 +51,17 @@ function Menu() {
           />
 
           <MenuElement
-            label="Processed Beef"
+            label="Beef steak"
             price="90.00"
-            des="Processed and marinated beef steak"
+            des="Processed beef steak"
             img={beef}
           />
-          <MenuElement label="Chicken Gravy" price="90.00" des="A nice chicken Gravy" img={kadai} />
+          <MenuElement
+            label="Chicken Gravy"
+            price="90.00"
+            des="A nice chicken Gravy"
+            img={kadai}
+          />
         </div>
         <div className="menuList">
           <h1>Dinner</h1>
@@ -61,8 +71,18 @@ function Menu() {
             des="A spicy Chicken roast !"
             img={grill}
           />
-          <MenuElement label="Ramen" price="90.00" des="A delicious dry ramen with egg , hand made by ichiraku!" img={noodles} />
-          <MenuElement label="Egg" price="90.00" des="Eggsotic! just plain and complex!!" img={mutta} />
+          <MenuElement
+            label="Ramen"
+            price="90.00"
+            des="A delicious dry ramen with egg"
+            img={noodles}
+          />
+          <MenuElement
+            label="Egg"
+            price="90.00"
+            des="Eggsotic! just plain and complex!!"
+            img={mutta}
+          />
         </div>
       </div>
     </section>
