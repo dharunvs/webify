@@ -10,7 +10,7 @@ function Navbar() {
       spy={true}
       smooth={true}
       // offset={-70}
-      duration={400}
+      duration={1000}
     >
       {label}
     </Link>

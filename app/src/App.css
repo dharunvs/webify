@@ -547,9 +547,7 @@ nav .Search {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: 1px solid var(--lightgray2);
-  border-right: 1px solid var(--lightgray2);
-  border: 1px solid var(--lightgray2);
+  background-color: aliceblue;
   transform: translateX(-100%);
 }
 
@@ -562,14 +560,20 @@ nav .Search {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom: 1px solid var(--lightgray2);
-  border-left: 1px solid var(--lightgray2);
-  border: 1px solid var(--lightgray2);
-  background-color: white;
+  background-color: aliceblue;
   transform: translateX(100%);
 }
 
 .teamCard:hover .tCardTop,
 .teamCard:hover .tCardBottom {
   transform: translateX(0);
+}
+
+/* Reservation.jsx */
+/* Reservation.jsx */
+
+.Reservation {
+  height: 100vh;
+  width: 85%;
+  margin: auto;
 }
