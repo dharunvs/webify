@@ -388,7 +388,10 @@ nav .Search {
   width: 70%;
 }
 
-.gallery .sd2 button {
+.gallery .sd2 {
+}
+
+.book {
   transform: translateY(4vh);
 }
 
