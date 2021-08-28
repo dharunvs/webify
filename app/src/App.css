@@ -387,10 +387,7 @@ nav .Search {
   width: 70%;
 }
 
-.gallery .sd2 {
-}
-
-.book {
+.gallery .sd2 button {
   transform: translateY(4vh);
 }
 
@@ -740,10 +737,10 @@ nav .Search {
 
 .HappyCustomer .imgContainer {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
   overflow: hidden;
 }
 

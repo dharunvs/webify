@@ -11,7 +11,6 @@ function Leaf({ size }) {
       class="svg-inline--fa fa-leaf fa-w-18"
       role="img"
       xmlns="http://www.w3.org/2000/svg"
-      
       fill=" rgb(149, 149, 149)"
     >
       <path
