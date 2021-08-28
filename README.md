@@ -6,6 +6,6 @@ Members: Dharun V S, Hrithik M Joseph
 
 How to run ?
 
-cd app
+cd app  
 npm install  
 npm run
