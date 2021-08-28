@@ -680,3 +680,61 @@ nav .Search {
   transform: translateY(2vh);
   gap: 30px;
 }
+
+/* HappyCustomer.jsx */
+/* HappyCustomer.jsx */
+
+.HappyCustomer {
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.hcheader {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hcheader p {
+  color: var(--orange);
+}
+
+.hccontent {
+  position: absolute;
+  z-index: 2;
+  color: white;
+}
+
+.hccontent > p {
+  font-size: 2rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.692);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  transform: translateY(-60%);
+}
+
+.HappyCustomer .imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
