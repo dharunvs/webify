@@ -7,5 +7,5 @@ Members: Dharun V S, Hrithik M Joseph
 How to run ?
 
 cd app
-npm install
+npm install  
 npm run
