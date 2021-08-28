@@ -66,7 +66,6 @@ function SpecialDishes() {
               corporis dicta sit quidem? Nam.
             </p>
             <h2>Rs 649.00</h2>
-            <button className="defaultButton">Book A Table</button>
             <button className="defaultButton">
               <NavLink label="Book A Table" to="reservation" />
             </button>
