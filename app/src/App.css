@@ -1,16 +1,223 @@
-/* Index.jsx */
+/* Defaults */
 
-.Index {
-  width: 100%;
-  min-height: 90vh;
-  background-color: white;
+.defaultButton {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: box-shadow 300ms ease-in-out;
+  cursor: pointer;
 }
 
-.Index section {
+.defaultButton:hover {
+  box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+}
+
+/* Navbar.jsx */
+/* Navbar.jsx */
+
+nav {
   width: 100%;
-  height: calc(100vh - 70px);
+  height: 15vh;
+  color: var(--lightgray);
+  /* background-color: aliceblue; */
+}
+nav .navLinks {
+  width: 85%;
+  height: inherit;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+  position: relative;
+  cursor: pointer;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  border-bottom: 2px solid gray;
+  transition: 300ms ease-in-out;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.burger .line1,
+.burger .line2,
+.burger .line3 {
+  width: 22px;
+  height: 3px;
+  background-color: var(--lightgray);
+  margin: 5px;
+}
+
+nav .Search {
+  fill: var(--lightgray);
+}
+
+.mainNavLinksLeft,
+.mainNavLinksRight {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+}
+
+.mainNavLinksLeft {
+  transform: translateX(25%);
+}
+.mainNavLinksRight {
+  transform: translateX(-25%);
+}
+
+.dummyLogo {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--lightgray);
+}
+/* Index.jsx */
+/* Index.jsx */
+
+.Index {
+  width: calc(100% - 50px);
+  min-height: 100vh;
+  background-color: white;
+  margin: 25px auto;
+}
+
+.Index section {
+  display: flex;
+  /* height: 75vh; */
+  width: 85%;
+  align-items: center;
+  justify-content: center;
   position: relative;
+}
+
+/* Home.jsx */
+/* Home.jsx */
+
+.Home {
+  height: 75vh;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeLeft,
+.homeRight {
+  height: 100%;
+  width: 50%;
+}
+
+.homeLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.homeLeft h1 {
+  /* font-family: inherit; */
+  font-size: 3.6rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.playVideo {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: box-shadow 300ms ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playVideo:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.playVideo .PlayVideo {
+  margin-right: 5px;
+}
+
+.homeMiniCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homeMiniCards > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--gray);
+}
+
+.homeMiniCards > div .Search {
+  fill: var(--gray);
+}
+
+.homeMiniCards > div:nth-child(2) {
+  width: 80%;
+  border-right: 1px solid var(--lightgray2);
+  border-left: 1px solid var(--lightgray2);
+}
+
+.homeMiniCards > div:nth-child(1),
+.homeMiniCards > div:nth-child(3) {
+  width: 50%;
+}
+
+.homeRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.homeRight .imgContainer {
+  width: 75vh;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.homeRight .imgContainer img {
+  width: 75vh;
+}
+
+/* About.jsx */
+/* About.jsx */
+
+.About {
+  height: 100vh;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
 }

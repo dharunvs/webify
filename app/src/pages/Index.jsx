@@ -11,7 +11,7 @@ import {
 function Index() {
   return (
     <div className="Index">
-      {/* <Navbar /> */}
+      <Navbar />
       <Home />
       <About />
       <SpecialDishes />

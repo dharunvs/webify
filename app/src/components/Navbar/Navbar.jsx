@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import Symbols from "../Symbols";
 
 function Navbar() {
   const NavLink = ({ label, to }) => (
@@ -8,24 +9,8 @@ function Navbar() {
       to={to}
       spy={true}
       smooth={true}
-      offset={-70}
+      // offset={-70}
       duration={400}
-      // onClick={() => {
-      //   if (to === "home") {
-      //     setScrollThumb(100);
-      //   } else if (to === "about") {
-      //     setScrollThumb(200);
-      //   } else if (to === "specialDishes") {
-      //     setScrollThumb(300);
-      //   } else if (to === "contact") {
-      //     setScrollThumb(400);
-      //   } else {
-      //     setScrollThumb(0);
-      //   }
-
-      //   setSection(to);
-      //   localStorage.setItem("section", to);
-      // }}
     >
       {label}
     </Link>
@@ -33,13 +18,31 @@ function Navbar() {
 
   return (
     <nav className="Navbar">
-      <ul className="navLinks">
-        <NavLink label="Home" to="home" />
-        <NavLink label="About" to="about" />
-        <NavLink label="Special Dishes" to="specialDishes" />
-        <NavLink label="Menu" to="menu" />
-        <NavLink label="Team" to="team" />
-      </ul>
+      <div className="navLinks">
+        <div className="burger">
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+        <div className="mainNavLinksLeft">
+          <NavLink label="Home" to="app" />
+          <NavLink label="About" to="about" />
+          <NavLink label="Special Dishes" to="specialDishes" />
+        </div>
+
+        <div className="logo">
+          <div className="dummyLogo"></div>
+        </div>
+        <div className="mainNavLinksRight">
+          <NavLink label="Menu" to="menu" />
+          <NavLink label="Team" to="team" />
+          <NavLink label="Reservation" to="reservation" />
+        </div>
+
+        <div className="searchIcon">
+          <Symbols.Search size="32" />
+        </div>
+      </div>
     </nav>
   );
 }
