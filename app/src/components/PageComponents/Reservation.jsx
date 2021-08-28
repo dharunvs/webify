@@ -14,15 +14,19 @@ function Reservation() {
           <h1>Book Now</h1>
         </div>
         <input placeholder="Name" type="text" />
-
         <input placeholder="Email" type="email" />
-
         <input placeholder="Phone" type="number" />
-        <input placeholder="Date" type="date" />
-        <input placeholder="Time" type="time" />
+        <div className="formBC">
+          <input placeholder="Date" type="date" />
+          <input placeholder="Time" type="time" />
+        </div>
+
         <input placeholder="Person" type="number" />
         <textarea placeholder="Message" type="text" />
-        <input type="submit"></input>
+        <button className="defaultButton" type="submit">
+          {" "}
+          Send Message
+        </button>
       </form>
       <img src={reservation} alt="" />
     </div>

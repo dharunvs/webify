@@ -6,6 +6,8 @@ import {
   Reservation,
   SpecialDishes,
   Team,
+  HappyCustomer,
+  Footer,
 } from "../components/PageComponents";
 
 function Index() {
@@ -16,8 +18,10 @@ function Index() {
       <About />
       <SpecialDishes />
       <Menu />
+      <HappyCustomer />
       <Team />
       <Reservation />
+      <Footer />
     </div>
   );
 }

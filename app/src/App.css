@@ -522,7 +522,6 @@ nav .Search {
   left: 0;
   bottom: 0;
   right: 0;
-  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .teamCard .imgContainer {
@@ -613,6 +612,7 @@ nav .Search {
   flex-direction: column;
   background-color: white;
   padding: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .Reservation form input,
@@ -621,4 +621,16 @@ nav .Search {
   outline: none;
   border: 1px solid var(--lightgray2);
   margin-bottom: 20px;
+  resize: none;
+}
+
+.Reservation form .formBC {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Reservation form .formBC input {
+  width: 48%;
 }
