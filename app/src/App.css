@@ -657,6 +657,20 @@ nav .Search {
   flex-direction: column;
 }
 
+.socialIcons {
+  width: 20px;
+}
+
+.socialIconsfb {
+  width: 13px;
+}
+
+.footerLeft > img {
+  width: 200px;
+  /* position: absolute; */
+  border: 1px solid red;
+}
+
 .footerLeft p {
   width: 60%;
 }
@@ -666,4 +680,5 @@ nav .Search {
   align-items: center;
   justify-content: center;
   transform: translateY(2vh);
+  gap: 30px;
 }

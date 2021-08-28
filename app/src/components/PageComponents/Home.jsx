@@ -18,7 +18,7 @@ function Home() {
         <div className="homeMiniCards">
           <div>
             <div className="homeIcon">
-              <Symbols.Search size="40" />
+              <Symbols.Rocket size="40" />
             </div>
             <p>
               Fast <br /> Delivery
@@ -26,7 +26,7 @@ function Home() {
           </div>
           <div>
             <div className="homeIcon">
-              <Symbols.Search size="40" />
+              <Symbols.Leaf size="40" />
             </div>
             <p>
               Fresh and Satisfying <br /> Food
@@ -34,7 +34,7 @@ function Home() {
           </div>
           <div>
             <div className="homeIcon">
-              <Symbols.Search size="40" />
+              <Symbols.Comment size="40" />
             </div>
             <p>
               Chat and <br /> Order

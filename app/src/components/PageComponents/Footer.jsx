@@ -1,8 +1,14 @@
+import fb from "../../assets/svgs/facebook.svg";
+import insta from "../../assets/svgs/instagram.svg";
+import tw from "../../assets/svgs/twitter.svg";
+import logo from "../../assets/images/logo.png";
+
 function Footer() {
   return (
     <div className="Footer">
       <div>
         <div className="footerLeft">
+          <img src={logo} alt="" />
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
             fugit voluptas eum cumque accusamus libero minus reiciendis omnis
@@ -10,9 +16,9 @@ function Footer() {
             sint vitae in?
           </p>
           <div>
-            <p>O</p>
-            <p>O</p>
-            <p>O</p>
+            <img className="socialIconsfb" src={fb} alt="" />
+            <img className="socialIcons" src={tw} alt="" />
+            <img className="socialIcons" src={insta} alt="" />
           </div>
         </div>
         <div className="footerRight">
