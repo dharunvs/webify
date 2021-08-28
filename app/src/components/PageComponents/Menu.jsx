@@ -23,17 +23,17 @@ function Menu() {
           <MenuElement
             label="Nachos"
             price="90.00"
-            des="Good nachos"
+            des="Good nachos with cheese spread"
             img={tacos}
           />
           <MenuElement
             label="Fried balls"
             price="90.00"
-            des="fried balls"
+            des="Delicious fried meat balls with mayo!"
             img={balls}
           />
 
-          <MenuElement label="salad" price="90.00" des="salad" img={green} />
+          <MenuElement label="Salad" price="90.00" des=" A nutricious bowl of salad" img={green} />
         </div>
         <div className="menuList">
           <h1>Lunch</h1>
@@ -41,14 +41,14 @@ function Menu() {
           <MenuElement
             label="Biriyani"
             price="90.00"
-            des="biriyani"
+            des="A spicy and delicious Indian dish! "
             img={biriyani}
           />
 
           <MenuElement
             label="Processed Beef"
             price="90.00"
-            des="processed beef"
+            des="Processed and marinated beef steak"
             img={beef}
           />
           <MenuElement label="gravy" price="90.00" des="gravy" img={kadai} />
@@ -58,7 +58,7 @@ function Menu() {
           <MenuElement
             label="Chicken"
             price="90.00"
-            des="Chicken"
+            des="A spicy and mouth-watering Chicken roast made in tandoori oven!"
             img={grill}
           />
           <MenuElement label="Ramen" price="90.00" des="Ramen" img={noodles} />
